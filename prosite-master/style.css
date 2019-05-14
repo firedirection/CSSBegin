@@ -1,0 +1,46 @@
+
+
+*{
+    font-family:verdana;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+#logo{
+    font-family:helvetica;
+    color:#ff0;
+    text-decoration:none;
+}
+
+
+header{
+    background-color: #ddd;
+    position:relative;
+}
+
+nav{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    
+}
