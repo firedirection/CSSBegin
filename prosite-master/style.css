@@ -47,3 +47,110 @@ nav a{
     padding: 5px;
     
 }
+
+nav a:hover{
+    background: #fff;
+    color: #f00;
+    
+}
+
+/*hero */
+
+
+#hero{
+    background: :#000;   
+}
+
+#hero h2, #herotext{
+    color: #fff;
+}
+
+
+#hero h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#hero img{
+    float: left
+    padding-right: 20px;
+}
+
+#herotext:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+#herobtn{
+    padding:10px;
+    text-align:center;
+    
+}
+
+
+.btn{
+    display:inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    background: #ddd;
+    color: #f00;
+    padding: 10px;
+    border-radius: 10px;
+        
+}
+
+.btn:hover{
+    background: #f00;
+    color: #ddd;
+    
+}
+
+#projects{
+    padding:40px;
+    
+        
+}
+
+#projects h3{
+    text-transform: lowercase;
+    margin:0px 0px 20px 0px;
+}
+
+
+#projects table{
+    
+    max-width: 500px;
+    width: 100%
+    margin:0px auto;
+}
+
+
+tr:nth-child(odd){
+    background: #ddd;
+    
+}
+
+
+th{
+    background: #000;
+    color: #fff;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    border: 1px solid: #000;
+    
+}
+
+td:first-child{
+    font-weight: bold;
+    color;#f00;
+    width:120px;
+    text-align: right
+}
