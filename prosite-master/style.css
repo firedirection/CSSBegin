@@ -15,6 +15,9 @@
     text-decoration:none;
 }
 
+#logo:hover{
+    color: #f00;
+}
 
 header{
     background-color: #ddd;
