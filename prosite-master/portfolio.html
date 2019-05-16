@@ -3,6 +3,64 @@
 	<head>
 		<title>Prosite</title>
          <link rel="stylesheet" href="style.css">
+        <style>
+            #bg{
+                background: url(assets/img/background.jpg);
+                background-size: cover
+                background-position:center center;
+               
+            }
+            #bg h2{
+                text-align: center;
+                font-weight: normal;
+                font-size: 60px;
+            }
+        
+            #overlay{
+                background:rgba(255,255,255,.5);
+                 height: calc(100vh -39.2px);
+                display: flex;
+                align-items: center;
+                justify-content: center
+            }
+            
+            .contain{
+                background: #ddd;
+                margin-bottom: 20px;
+            }
+            
+            
+            #dcontainer .col{
+                width: 49%;
+                display: inline-block;
+                background: #fff;
+                vertical-align: top;
+            }
+            
+            #fcontainer:after{
+                content: '';
+                display: block;
+                clear: both;
+                
+            }
+            
+            #fcontainer .col{
+                width:50%;
+                float: left;
+                background: #fff;
+            }
+            
+            #flexcontainer{
+                display: flex;
+                align-items: flex-start;
+            }
+            
+            #flexcontainer.col{
+                width: 50%
+            }
+            
+            
+        </style>
 	</head>
 	<body>
 		<header>
@@ -15,33 +73,35 @@
 			</nav>
 		</header>
 
-        <div>
+        <div id="bg">
         
         
-            <div> <h2>Portfolio</h2> </div>
+            <div id="overlay"> <h2>Portfolio</h2> </div>
+        </div>
         
-            <div>
-                <div>
+            <div id="dcontainer" class="contain">
+                <div class="col">
                     <img src="assets/img/bio.jpg">
                     <h3>Project 1</h3>
                     
                     <p>This is the description of the project. </p>
-                </div>    
-                <div>
+                </div><div class="col">
                     <img src="assets/img/bio.jpg">
                     <h3>Project 2</h3>
                     
-                    <p>This is the description of the project. </p>
+                    <p>This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project. </p>
                 </div>        
-                
+            </div>
             
-                <div>
+            <div id="fcontainer" class="contain">
+            
+                <div class="col">
                     <img src="assets/img/bio.jpg">
                     <h3>Project 1</h3>
                     
                     <p>This is the description of the project. </p>
                 </div>    
-                <div>
+                <div class="col">
                     <img src="assets/img/bio.jpg">
                     <h3>Project 2</h3>
                     
@@ -51,8 +111,26 @@
             
             </div>
         
+               <div id="flexcontainer" class="contain">
+            
+                <div class="col">
+                    <img src="assets/img/bio.jpg">
+                    <h3>Project 1</h3>
+                    
+                    <p>This is the description of the project. </p>
+                </div>    
+                <div class="col">
+                    <img src="assets/img/bio.jpg">
+                    <h3>Project 2</h3>
+                    
+                    <p>This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project.This is the description of the project. </p>
+                </div>
+            
+            
+            </div>
         
-        </div>
+        
+      
         
         
         
